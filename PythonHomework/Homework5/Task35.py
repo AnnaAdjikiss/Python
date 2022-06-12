@@ -18,6 +18,6 @@ def find_number(list):
 path_to_numbers = 'file_for_35.txt'
 sequence = get_numbers(path_to_numbers)
 
-print(sequence)
-print(find_number(sequence))
+print(f'Последовательность из файла: {sequence}')
+print(f'Искомое число: {find_number(sequence)}')
 
